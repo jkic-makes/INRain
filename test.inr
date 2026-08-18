@@ -1,0 +1,13 @@
+print Hello World!
+set name = Bob
+print Hello, {name}!
+set x = 5
+add x 3
+print x is now {x}
+if x == 8:
+    print Math works!
+end
+loop 3:
+    print Looping!
+end
+run echo this ran a real cmd command

@@ -1,0 +1,15 @@
+print Welcome to INRain!
+ask name What is your name?
+print Hello, {name}!
+
+set age = 0
+ask age How old are you?
+if age >= 18:
+    print You're an adult, {name}.
+else:
+    print You're still a minor, {name}.
+end
+
+gui Welcome, {name}!
+button Say Hi -> popup Hi there!
+button Close -> print Goodbye!
